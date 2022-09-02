@@ -381,6 +381,14 @@ textarea {
     font-size: 25px;
   }
 }
+
+.mb-section-res{
+  width: 100% !important;
+}
+@media only screen and (max-width: 768px) {
+
+  
+}
 /*END SECTION TITLE DESIGN*/
 
 /*START SCROLL TO TOP*/
