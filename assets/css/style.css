@@ -380,14 +380,27 @@ textarea {
   .atf-section-title h2 {
     font-size: 25px;
   }
+  .look{
+    font-size: 2rem;
+    color: #00520e;
+    font-weight: bold;
+  }
 }
-
+.look{
+  color: #00520e;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: math;
+}
 .mb-section-res{
   width: 100% !important;
 }
 @media only screen and (max-width: 768px) {
-
-  
+ .look{
+    font-size: 2rem;
+    color: #00520e;
+    font-weight: bold;
+  }  
 }
 /*END SECTION TITLE DESIGN*/
 
