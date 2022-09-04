@@ -35,6 +35,17 @@ Version      : 1.0
 * 01.GENERAL STYLE
 * ----------------------------------------------------------------------------------------
 */
+@font-face {
+  font-family: 'Abel';
+  src: url('../webfonts/Abel-Regular.eot');
+  src: url('../webfonts/Abel-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../webfonts/Abel-Regular.ttf') format('ttf'),
+      url('../webfonts/Abel-Regular.woff2') format('woff2'),
+      url('../webfonts/Abel-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 html {
   overflow-x: hidden;
   height: 100%;
@@ -390,7 +401,7 @@ textarea {
   color: #00520e;
   font-size: 4rem;
   font-weight: bold;
-  font-family: math;
+  font-family: abel;
 }
 .mb-section-res{
   width: 100% !important;
